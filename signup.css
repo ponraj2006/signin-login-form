@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    text-align: center;
+}
+.signup_h1{
+    margin: 3%;
+    text-align: center;
+    font-family:'Lobster', 'Lobster', cursive;
+    text-transform: uppercase;
+}
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  
+}
+.container input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container button{
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container button:disabled {
+    background-color: #aaa;
+}
+.container p{
+    margin: 5px;
+}
+.container p a{
+    text-decoration: none;
+}

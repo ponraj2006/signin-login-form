@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 3%;
+    text-align: center;
+    font-family:'Lobster', 'Lobster', cursive;
+    text-transform: uppercase;
+}
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button{
+    padding: 10px;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #35aa39;
+}
+form p{
+    margin: 5px;
+    text-align: center;
+}
+form .forgotpass{
+  font-family: 'Haettenschweiler, 'Arial 'Narrow Bold', sans-serif';
+}
+form p a{
+    text-decoration: none;
+   
+}
