@@ -30,7 +30,7 @@ body{
 .container input{
     width: 100%;
     padding: 10px;
-    margin: 10px 0;
+    margin: 10px 0 10px 0;
 }
 .container button{
     padding: 10px;
@@ -52,4 +52,9 @@ body{
     margin: 5px;
     font-weight: 400;
     font-style: bold;
+}
+#error_message{
+  text-align: center;
+  color: rgba(255, 0, 0, 0.566);
+  font-size: 15px;
 }
